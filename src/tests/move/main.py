@@ -2,7 +2,7 @@
 from L9110URA import L9110URA
 import time 
 robot = L9110URA(13,12,5,23)
-timeMove = 2000
+timeMove = 300
 print("Frente...")
 robot.passoFrente(timeMove)
 time.sleep_ms(1000)
